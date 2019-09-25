@@ -1,6 +1,6 @@
 {
   "Combat": {
-    "open": false,
+    "open": true,
     "visible": true,
     "posX": 117,
     "posY": 8,
@@ -26,7 +26,7 @@
       "Settings": false
     },
     "AutoWeapon": {
-      "Settings": false
+      "Settings": true
     },
     "BowAimbot": {
       "Settings": false
@@ -251,7 +251,7 @@
       "Settings": false
     },
     "ClickGUI": {
-      "Settings": true
+      "Settings": false
     },
     "ESP": {
       "Settings": false
@@ -368,15 +368,12 @@
     "posX": 638,
     "posY": 8,
     "AntiBot": {
-      "Settings": true
+      "Settings": false
     },
     "AtAllProvider": {
       "Settings": false
     },
     "ComponentOnHover": {
-      "Settings": false
-    },
-    "DrawRect": {
       "Settings": false
     },
     "LagBackCheck": {

@@ -76,7 +76,7 @@
     "KeyBind": 0
   },
   "AutoTool": {
-    "State": false,
+    "State": true,
     "KeyBind": 0
   },
   "AutoWalk": {
@@ -84,7 +84,7 @@
     "KeyBind": 0
   },
   "AutoWeapon": {
-    "State": false,
+    "State": true,
     "KeyBind": 0
   },
   "BedGodMode": {
@@ -184,10 +184,6 @@
     "KeyBind": 0
   },
   "Derp": {
-    "State": false,
-    "KeyBind": 0
-  },
-  "DrawRect": {
     "State": false,
     "KeyBind": 0
   },

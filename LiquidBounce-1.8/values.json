@@ -2,8 +2,8 @@
   "targets": {
     "TargetPlayer": true,
     "TargetMobs": false,
-    "TargetAnimals": true,
-    "TargetInvisible": false,
+    "TargetAnimals": false,
+    "TargetInvisible": true,
     "TargetDead": false
   },
   "features": {
@@ -212,7 +212,7 @@
     "Increment": "9.32"
   },
   "ESP": {
-    "Mode": "OtherBox",
+    "Mode": "Box",
     "Outline-Width": "5.0",
     "WireFrame-Width": "0.77",
     "ShaderOutline-Radius": "1.39",
@@ -245,7 +245,7 @@
   },
   "Fly": {
     "Mode": "BoostHypixel",
-    "VanillaSpeed": "2.46",
+    "VanillaSpeed": "3.42",
     "VanillaKickBypass": "false",
     "MineplexSpeed": "7.04",
     "NCPMotion": "0.98",
@@ -360,7 +360,7 @@
     "NoInvDelay": "50",
     "FailRate": "0.0",
     "LimitedMultiTargets": "2",
-    "MaxTurnSpeed": "110.0",
+    "MaxTurnSpeed": "109.68",
     "MinTurnSpeed": "74.0",
     "FakeSwing": "true",
     "SilentRotation": "true",
@@ -492,7 +492,7 @@
   "Spammer": {
     "MaxDelay": "300",
     "MinDelay": "300",
-    "Message": "MemeBounce B24 Simple Config",
+    "Message": "MemeBounce B26 Simple Config",
     "Custom": "false"
   },
   "Speed": {

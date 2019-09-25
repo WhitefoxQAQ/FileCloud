@@ -114,7 +114,7 @@ FastStairs Mode NCP
 FastStairs LongJump false
 FastUse Mode AAC
 Fly Mode Vanilla
-Fly VanillaSpeed 2.68
+Fly VanillaSpeed 3.42
 Fly VanillaKickBypass false
 Fly MineplexSpeed 7.04
 Fly NCPMotion 0.98
@@ -188,7 +188,7 @@ KillAura NoInvAttack false
 KillAura NoInvDelay 50
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 2
-KillAura MaxTurnSpeed 110.0
+KillAura MaxTurnSpeed 109.68
 KillAura MinTurnSpeed 74.0
 KillAura FakeSwing true
 KillAura SilentRotation true
@@ -313,12 +313,3 @@ WaterSpeed Speed 1.2
 Zoot BadEffects true
 Zoot Fire true
 Zoot NoAir false
-chat &c&l&n请注意检查
-chat &c&l&nNoFallPlus(Player) 
-chat &c&l&nLagBackCheck(Misc)
-chat &c&l&n是否开启
-chat &c&l&n如果没有开启请手动开启
-chat &c&l若配置是从NoGround刀爆
-chat &c&l切换到当前配置
-chat &c&l请手动关闭NoFall
-chat &c&l然后开启NoFallPlus
