@@ -66,7 +66,7 @@
     }
   },
   "Player": {
-    "open": false,
+    "open": true,
     "visible": true,
     "posX": 431,
     "posY": 8,
@@ -120,10 +120,10 @@
     }
   },
   "Movement": {
-    "open": false,
+    "open": true,
     "visible": true,
-    "posX": 13,
-    "posY": 9,
+    "posX": 11,
+    "posY": 10,
     "AirJump": {
       "Settings": false
     },
@@ -142,6 +142,9 @@
     "BugUp": {
       "Settings": false
     },
+    "CustomBHop": {
+      "Settings": true
+    },
     "FastClimb": {
       "Settings": false
     },
@@ -158,7 +161,7 @@
       "Settings": false
     },
     "HypixelFly": {
-      "Settings": true
+      "Settings": false
     },
     "IceSpeed": {
       "Settings": false
@@ -363,7 +366,7 @@
     }
   },
   "Misc": {
-    "open": false,
+    "open": true,
     "visible": true,
     "posX": 638,
     "posY": 7,
@@ -477,14 +480,17 @@
     }
   },
   "Fun": {
-    "open": false,
+    "open": true,
     "visible": true,
-    "posX": 847,
-    "posY": 10,
+    "posX": 845,
+    "posY": 7,
     "Derp": {
       "Settings": false
     },
     "FastPlay": {
+      "Settings": true
+    },
+    "Jesus": {
       "Settings": false
     },
     "SkinDerp": {

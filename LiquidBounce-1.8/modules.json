@@ -163,6 +163,10 @@
     "State": true,
     "KeyBind": 0
   },
+  "CustomBHop": {
+    "State": false,
+    "KeyBind": 33
+  },
   "Damage": {
     "State": false,
     "KeyBind": 0
@@ -201,7 +205,7 @@
   },
   "FastPlay": {
     "State": false,
-    "KeyBind": 0
+    "KeyBind": 24
   },
   "FastStairs": {
     "State": false,
@@ -229,7 +233,7 @@
   },
   "Fucker": {
     "State": false,
-    "KeyBind": 0
+    "KeyBind": 37
   },
   "Fullbright": {
     "State": true,
@@ -260,7 +264,7 @@
     "KeyBind": 0
   },
   "HitBox": {
-    "State": true,
+    "State": false,
     "KeyBind": 0
   },
   "HypixelFly": {
@@ -292,6 +296,10 @@
     "KeyBind": 0
   },
   "ItemTeleport": {
+    "State": false,
+    "KeyBind": 0
+  },
+  "Jesus": {
     "State": false,
     "KeyBind": 0
   },
@@ -493,7 +501,7 @@
   },
   "Speed": {
     "State": false,
-    "KeyBind": 33
+    "KeyBind": 0
   },
   "Sprint": {
     "State": true,

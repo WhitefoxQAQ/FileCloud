@@ -40,7 +40,7 @@
     "Color": true,
     "LivingTime": false,
     "Ground": false,
-    "Air": false,
+    "Air": true,
     "InvaildGround": false,
     "Swing": false,
     "Health": false,
@@ -210,6 +210,47 @@
     "Mode": "HypixelPacket",
     "Delay": 0
   },
+  "CustomBHop": {
+    "resetH": false,
+    "resetY": false,
+    "strafing": true,
+    "jumpY": 0.42,
+    "vClipJumpY": 0.0,
+    "jumpHType": "Add",
+    "jumpH": 0.22,
+    "jumpHClip": 0.0,
+    "upYType": "Add",
+    "upY": 0.0,
+    "upHType": "Add",
+    "upH": 0.0,
+    "upAirSpeed": 0.02,
+    "upTimer": 1.0,
+    "downYType": "Add",
+    "downY": 0.0,
+    "downHType": "Add",
+    "downH": 0.0,
+    "downAirSpeed": 0.02,
+    "downTimer": 1.0,
+    "beforeYType": "Add",
+    "beforeY": 0.0,
+    "beforeHType": "Add",
+    "beforeH": 0.0,
+    "beforeAirSpeed": 0.02,
+    "beforeTimer": 1.0,
+    "ticksAction": 0,
+    "whenYType": "Add",
+    "whenY": 0.0,
+    "whenHType": "Add",
+    "whenH": 0.0,
+    "whenAirSpeed": 0.02,
+    "whenTimer": 1.0,
+    "afterYType": "Add",
+    "afterY": 0.0,
+    "afterHType": "Add",
+    "afterH": 0.0,
+    "afterAirSpeed": 0.02,
+    "afterTimer": 1.0
+  },
   "Damage": {
     "Mode": "NCP",
     "Damage": 1
@@ -245,7 +286,7 @@
     "Speed": 0
   },
   "FastPlay": {
-    "FastPlay Mode": "SkyWars_Solo"
+    "FastPlay Mode": "BedWars_4v4"
   },
   "FastStairs": {
     "Mode": "NCP",
@@ -348,17 +389,21 @@
     "ResetAfterTP": false,
     "Button": "Middle"
   },
+  "Jesus": {
+    "Mode": "Basic",
+    "Strafe": true
+  },
   "Kick": {
     "Mode": "SelfHurt"
   },
   "KillAura": {
-    "MaxCPS": 12,
-    "MinCPS": 11,
+    "MaxCPS": 11,
+    "MinCPS": 10,
     "HurtTime": 10,
     "Range": 4.75,
     "ThroughWallsRange": 4.0,
     "RangeSprintReducement": 0.0,
-    "Priority": "Direction",
+    "Priority": "Health",
     "TargetMode": "Single",
     "MultiMode": "NCP",
     "Swing": true,
@@ -370,15 +415,15 @@
     "RayCast": false,
     "RayCastIgnored": false,
     "LivingRayCast": false,
-    "Predict": false,
+    "Predict": true,
     "MaxPredictSize": 0.28,
     "MinPredictSize": 0.1,
     "NoInvAttack": false,
     "NoInvDelay": 50,
     "FailRate": 0.0,
     "LimitedMultiTargets": 2,
-    "MaxTurnSpeed": 109.68,
-    "MinTurnSpeed": 72.92,
+    "MaxTurnSpeed": 106.48,
+    "MinTurnSpeed": 61.73,
     "FakeSwing": true,
     "SilentRotation": true,
     "RandomCenter": false,
@@ -391,8 +436,8 @@
     "JWT": false
   },
   "LiquidWalk": {
-    "Mode": "Dolphin",
-    "NoJump": false
+    "Mode": "NCP",
+    "NoJump": true
   },
   "LongJump": {
     "Mode": "NCP",
@@ -400,7 +445,7 @@
     "AutoJump": true
   },
   "NameProtect": {
-    "FakeName": "\u0026c\u0026nFakeCrackMeAAAAA",
+    "FakeName": "\u0026c\u0026nFaKeCrAcKmEaAaAaA",
     "AllPlayers": false,
     "SkinProtect": true
   },
@@ -568,7 +613,7 @@
     "AutoSword": true
   },
   "TargetHUD": {
-    "Debug": false,
+    "Debug": true,
     "TargetHUD": true,
     "HealthWarning": true,
     "AutoL": true
