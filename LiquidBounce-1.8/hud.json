@@ -1,13 +1,5 @@
 [
   {
-    "Type": "Armor",
-    "X": 18,
-    "Y": 56,
-    "Scale": 1.0,
-    "HorizontalFacing": "Middle",
-    "VerticalFacing": "Down"
-  },
-  {
     "Type": "TabGUI",
     "X": 57,
     "Y": 0,
@@ -101,14 +93,14 @@
   },
   {
     "Type": "Text",
-    "X": 3,
-    "Y": 495,
+    "X": -320,
+    "Y": 562,
     "Scale": 1.0,
     "HorizontalFacing": "Left",
     "VerticalFacing": "Up",
-    "DisplayText": "[FPS:%fps%]  [Ping:%ping%]",
+    "DisplayText": "[X:%x%/Y:%y%/Z:%z%]",
     "Red": 255,
-    "Green": 139,
+    "Green": 127,
     "Blue": 255,
     "Rainbow": false,
     "Shadow": true,
@@ -136,10 +128,54 @@
     }
   },
   {
+    "Type": "Armor",
+    "X": 18,
+    "Y": 56,
+    "Scale": 1.0,
+    "HorizontalFacing": "Middle",
+    "VerticalFacing": "Down"
+  },
+  {
+    "Type": "Text",
+    "X": 21,
+    "Y": 971,
+    "Scale": 0.99999994,
+    "HorizontalFacing": "Left",
+    "VerticalFacing": "Up",
+    "DisplayText": "[X:%x%/Y:%y%/Z:%z%]",
+    "Red": 255,
+    "Green": 158,
+    "Blue": 255,
+    "Rainbow": false,
+    "Shadow": true,
+    "font": {
+      "fontName": "Roboto Medium",
+      "fontSize": 40
+    }
+  },
+  {
+    "Type": "Text",
+    "X": 2,
+    "Y": 498,
+    "Scale": 1.0,
+    "HorizontalFacing": "Left",
+    "VerticalFacing": "Up",
+    "DisplayText": "[FPS:%fps%]  [Ping:%ping%]",
+    "Red": 255,
+    "Green": 139,
+    "Blue": 255,
+    "Rainbow": false,
+    "Shadow": true,
+    "font": {
+      "fontName": "Roboto Medium",
+      "fontSize": 40
+    }
+  },
+  {
     "Type": "Arraylist",
     "X": 0,
-    "Y": 23,
-    "Scale": 0.99999994,
+    "Y": 20,
+    "Scale": 1.0,
     "HorizontalFacing": "Left",
     "VerticalFacing": "Up",
     "Text-Color": "Custom",
@@ -148,22 +184,22 @@
     "Text-B": 255,
     "Rect-Color": "Rainbow",
     "Rect-R": 255,
-    "Rect-G": 161,
+    "Rect-G": 255,
     "Rect-B": 255,
     "Rect-Alpha": 255,
-    "Random-Saturation": 0.29032257,
-    "Random-Brightness": 0.5,
+    "Random-Saturation": 0.9,
+    "Random-Brightness": 1.0,
     "Tags": true,
     "ShadowText": true,
     "Background-Color": "Custom",
-    "Background-R": 2,
+    "Background-R": 0,
     "Background-G": 0,
     "Background-B": 0,
     "Background-Alpha": 0,
     "Rect": "Left",
     "UpperCase": false,
-    "Space": 0.24193548,
-    "TextHeight": 8.048388,
+    "Space": 0.0,
+    "TextHeight": 7.8152175,
     "TextY": 0.0,
     "TagsArrayColor": false,
     "font": {
@@ -173,20 +209,56 @@
   },
   {
     "Type": "Text",
-    "X": 3,
-    "Y": 483,
+    "X": 2,
+    "Y": 241,
     "Scale": 1.0,
     "HorizontalFacing": "Left",
     "VerticalFacing": "Up",
-    "DisplayText": "[X:%x%/Y:%y%/Z:%z%]",
+    "DisplayText": "FastPlay有很多模式可以自己选择，在Fun里面，阅读完成打开CustomHUD单击本消息按Delete键删除即可",
     "Red": 255,
-    "Green": 127,
-    "Blue": 255,
+    "Green": 71,
+    "Blue": 3,
     "Rainbow": false,
     "Shadow": true,
     "font": {
-      "fontName": "Roboto Medium",
-      "fontSize": 40
+      "fontName": "Minecraft Font",
+      "fontSize": -1
+    }
+  },
+  {
+    "Type": "Text",
+    "X": 2,
+    "Y": 216,
+    "Scale": 0.99999994,
+    "HorizontalFacing": "Left",
+    "VerticalFacing": "Up",
+    "DisplayText": "提示:记得将Speed和Timer绑定到一起同时开启(默认F),如果出现timer没开启的情况请自己处理下233",
+    "Red": 255,
+    "Green": 74,
+    "Blue": 62,
+    "Rainbow": false,
+    "Shadow": true,
+    "font": {
+      "fontName": "Minecraft Font",
+      "fontSize": -1
+    }
+  },
+  {
+    "Type": "Text",
+    "X": 1,
+    "Y": 230,
+    "Scale": 1.0,
+    "HorizontalFacing": "Left",
+    "VerticalFacing": "Up",
+    "DisplayText": "TargetHUD,AutoL,Debug在Fun,Addons里面，根据情况自己开启",
+    "Red": 255,
+    "Green": 83,
+    "Blue": 0,
+    "Rainbow": false,
+    "Shadow": true,
+    "font": {
+      "fontName": "Minecraft Font",
+      "fontSize": -1
     }
   }
 ]

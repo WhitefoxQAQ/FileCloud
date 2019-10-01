@@ -3,6 +3,10 @@
     "State": false,
     "KeyBind": 0
   },
+  "Addons": {
+    "State": true,
+    "KeyBind": 0
+  },
   "Aimbot": {
     "State": false,
     "KeyBind": 0
@@ -160,12 +164,12 @@
     "KeyBind": 0
   },
   "Criticals": {
-    "State": true,
+    "State": false,
     "KeyBind": 0
   },
-  "CustomBHop": {
-    "State": false,
-    "KeyBind": 33
+  "CustomCriticals": {
+    "State": true,
+    "KeyBind": 0
   },
   "Damage": {
     "State": false,
@@ -296,10 +300,6 @@
     "KeyBind": 0
   },
   "ItemTeleport": {
-    "State": false,
-    "KeyBind": 0
-  },
-  "Jesus": {
     "State": false,
     "KeyBind": 0
   },
@@ -440,7 +440,7 @@
     "KeyBind": 0
   },
   "PingSpoof": {
-    "State": false,
+    "State": true,
     "KeyBind": 0
   },
   "Plugins": {
@@ -501,7 +501,7 @@
   },
   "Speed": {
     "State": false,
-    "KeyBind": 0
+    "KeyBind": 33
   },
   "Sprint": {
     "State": true,
@@ -535,10 +535,6 @@
     "State": false,
     "KeyBind": 0
   },
-  "TargetHUD": {
-    "State": true,
-    "KeyBind": 0
-  },
   "Teams": {
     "State": true,
     "KeyBind": 0
@@ -553,7 +549,7 @@
   },
   "Timer": {
     "State": false,
-    "KeyBind": 0
+    "KeyBind": 33
   },
   "Tower": {
     "State": false,

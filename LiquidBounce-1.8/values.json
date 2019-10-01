@@ -19,6 +19,12 @@
   "liquidchat": {
     "token": ""
   },
+  "Addons": {
+    "Debug": true,
+    "TargetHUD": true,
+    "HealthWarning": true,
+    "AutoL": true
+  },
   "Aimbot": {
     "Range": 8.0,
     "TurnSpeed": 180.0,
@@ -65,8 +71,8 @@
     "Hotbar": true
   },
   "AutoClicker": {
-    "MaxCPS": 11,
-    "MinCPS": 8,
+    "MaxCPS": 14,
+    "MinCPS": 11,
     "Right": true,
     "Left": true,
     "Jitter": false
@@ -210,46 +216,10 @@
     "Mode": "HypixelPacket",
     "Delay": 0
   },
-  "CustomBHop": {
-    "resetH": false,
-    "resetY": false,
-    "strafing": true,
-    "jumpY": 0.42,
-    "vClipJumpY": 0.0,
-    "jumpHType": "Add",
-    "jumpH": 0.22,
-    "jumpHClip": 0.0,
-    "upYType": "Add",
-    "upY": 0.0,
-    "upHType": "Add",
-    "upH": 0.0,
-    "upAirSpeed": 0.02,
-    "upTimer": 1.0,
-    "downYType": "Add",
-    "downY": 0.0,
-    "downHType": "Add",
-    "downH": 0.0,
-    "downAirSpeed": 0.02,
-    "downTimer": 1.0,
-    "beforeYType": "Add",
-    "beforeY": 0.0,
-    "beforeHType": "Add",
-    "beforeH": 0.0,
-    "beforeAirSpeed": 0.02,
-    "beforeTimer": 1.0,
-    "ticksAction": 0,
-    "whenYType": "Add",
-    "whenY": 0.0,
-    "whenHType": "Add",
-    "whenH": 0.0,
-    "whenAirSpeed": 0.02,
-    "whenTimer": 1.0,
-    "afterYType": "Add",
-    "afterY": 0.0,
-    "afterHType": "Add",
-    "afterH": 0.0,
-    "afterAirSpeed": 0.02,
-    "afterTimer": 1.0
+  "CustomCriticals": {
+    "Mode": "Hypixel",
+    "CustomMotionY": 0.05,
+    "Hypixel Delay": 7
   },
   "Damage": {
     "Mode": "NCP",
@@ -261,7 +231,7 @@
     "Increment": 9.32
   },
   "ESP": {
-    "Mode": "Box",
+    "Mode": "OtherBox",
     "Outline-Width": 5.0,
     "WireFrame-Width": 0.77,
     "ShaderOutline-Radius": 1.39,
@@ -389,18 +359,14 @@
     "ResetAfterTP": false,
     "Button": "Middle"
   },
-  "Jesus": {
-    "Mode": "Basic",
-    "Strafe": true
-  },
   "Kick": {
     "Mode": "SelfHurt"
   },
   "KillAura": {
-    "MaxCPS": 11,
-    "MinCPS": 10,
+    "MaxCPS": 13,
+    "MinCPS": 9,
     "HurtTime": 10,
-    "Range": 4.75,
+    "Range": 4.65,
     "ThroughWallsRange": 4.0,
     "RangeSprintReducement": 0.0,
     "Priority": "Health",
@@ -415,16 +381,16 @@
     "RayCast": false,
     "RayCastIgnored": false,
     "LivingRayCast": false,
-    "Predict": true,
-    "MaxPredictSize": 0.28,
+    "Predict": false,
+    "MaxPredictSize": 0.1,
     "MinPredictSize": 0.1,
     "NoInvAttack": false,
     "NoInvDelay": 50,
     "FailRate": 0.0,
     "LimitedMultiTargets": 2,
-    "MaxTurnSpeed": 106.48,
-    "MinTurnSpeed": 61.73,
-    "FakeSwing": true,
+    "MaxTurnSpeed": 138.0,
+    "MinTurnSpeed": 90.5,
+    "FakeSwing": false,
     "SilentRotation": true,
     "RandomCenter": false,
     "Outborder": false,
@@ -436,7 +402,7 @@
     "JWT": false
   },
   "LiquidWalk": {
-    "Mode": "NCP",
+    "Mode": "Dolphin",
     "NoJump": true
   },
   "LongJump": {
@@ -477,7 +443,7 @@
     "Consume": "Custom",
     "Bow": "Custom",
     "Soulsand": false,
-    "CustomReducement": 0.19
+    "CustomReducement": 0.13
   },
   "NoSwing": {
     "ServerSide": true
@@ -569,13 +535,13 @@
     "StopMove": false
   },
   "Spammer": {
-    "MaxDelay": 300,
-    "MinDelay": 300,
-    "Message": "MemeBounce B26 Simple Config",
+    "MaxDelay": 2022,
+    "MinDelay": 1544,
+    "Message": "MemeBounce B30 Simple Config \u003c3",
     "Custom": false
   },
   "Speed": {
-    "Mode": "SlowHop",
+    "Mode": "NCPHop",
     "CustomSpeed": 0.4678,
     "CustomY": 0.42,
     "CustomTimer": 1.0,
@@ -612,12 +578,6 @@
     "Range": 9.0,
     "AutoSword": true
   },
-  "TargetHUD": {
-    "Debug": true,
-    "TargetHUD": true,
-    "HealthWarning": true,
-    "AutoL": true
-  },
   "Teams": {
     "ScoreboardTeam": false,
     "Color": true
@@ -636,7 +596,7 @@
     "Swing": false,
     "StopWhenBlockAbove": true,
     "Rotations": true,
-    "KeepRotation": false,
+    "KeepRotation": true,
     "OnJump": false,
     "Timer": 1.0,
     "JumpMotion": 0.42,
